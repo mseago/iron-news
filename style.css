@@ -51,7 +51,7 @@ table {
 /*beginning of my css*/
 
 #container {
-  font-family: sans-serif;
+  font-family: Verdana, Geneva, sans-serif;
   background-color: rgba(238, 240, 243, 1);
 }
 .top-nav {
@@ -59,54 +59,89 @@ table {
   overflow: auto;
 }
 .top-nav h1 {
-  padding: 1em;
-  font-size: 1.5em;
-
+  padding: 1em .5em 1em 1em;
+  font-size: 1.25em;
+  font-weight: 700;
   float: left;
 }
 .top-nav span {
-  padding: .25em;
+  padding: .25em .5em;
   font-weight: 700;
-    color: #FFF;
-    font-family: serif;
+  color: #FFF;
   border: 1px solid #FFF;
 }
 .top-nav ul {
   padding: 1em;
-  margin-bottom: 2em;
+  float: left;
 }
 .top-nav li {
   font-size: 1.25em;
-  padding: 1em;
-  margin: 0 .5em 0 .5em;
+  padding-top: .18em;
+  margin: 0 .25em 0 .25em;
   display: inline;
   float: left;
 }
+.top-nav li:after {
+  content: " | ";
+  padding: 0 10px;
+  color: #FFF;
+}
+.top-nav li:last-child:after {
+  content: none;
+}
 .top-nav h2 {
-  float: left;
+  padding: 1em;
+  font-size: 1.25em;
+  float: right;
 }
 .page-content {
   clear: both;
+  margin-top: 1em;
 }
+.page-content span {
+
+}
+
 .page-content ol {
-    list-style-type: decimal;
+  padding-left: 2em;
+  list-style-type: decimal;
 }
 .page-content li {
-
+  margin: .25em 0;
+}
+.page-content ol li span {
+  color: gray;
+  font-size: .85em;
+}
+.page-content p {
+  font-size: .75em;
+  font-weight: 100;
+  color: gray;
+}
+.more-content p {
+  font-size: 1em;
+  margin: 1em 0 1em 2em;
 }
 .footer {
   background-color: rgba(238, 240, 243, 1);
+  overflow: auto;
 }
 .footer ul {
+  border-top: 1px solid black;
   padding: 1em;
-  margin-bottom: 1.5em;
+  margin-bottom: 1em;
   text-align: center;
 }
 .footer li {
-  font-size: 1.25em;
-  padding: 1em;
-  margin: 0 .5em 0 .5em;
-  display: inline;
-  float: left;
-
+  font-size: .75em;
+  padding: .5em 0;
+  margin: 0 .5em 0 0;
+  display: inline-block;
+}
+.footer li:after {
+  content: " | ";
+  padding: 0 1em;
+}
+.footer li:last-child:after {
+  content: none;
 }
