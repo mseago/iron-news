@@ -59,8 +59,8 @@ table {
   overflow: auto;
 }
 .top-nav h1 {
-  padding: 1em .5em 1em 1em;
-  font-size: 1.25em;
+  padding: .75em .5em .75em 1em;
+  font-size: 1em;
   font-weight: 700;
   float: left;
 }
@@ -71,15 +71,12 @@ table {
   border: 1px solid #FFF;
 }
 .top-nav ul {
-  padding: 1em;
+  padding: .75em .5em;
   float: left;
 }
 .top-nav li {
-  font-size: 1.25em;
-  padding-top: .18em;
-  margin: 0 .25em 0 .25em;
+  font-size: 1em;
   display: inline;
-  float: left;
 }
 .top-nav li:after {
   content: " | ";
@@ -90,20 +87,16 @@ table {
   content: none;
 }
 .top-nav h2 {
-  padding: 1em;
-  font-size: 1.25em;
+  padding: .75em 1em;
+  font-size: 1em;
   float: right;
 }
 .page-content {
   clear: both;
   margin-top: 1em;
 }
-.page-content span {
-
-}
-
 .page-content ol {
-  padding-left: 2em;
+  padding-left: 3em;
   list-style-type: decimal;
 }
 .page-content li {
@@ -120,21 +113,21 @@ table {
 }
 .more-content p {
   font-size: 1em;
-  margin: 1em 0 1em 2em;
+  margin: 1em 0 1em 3em;
 }
 .footer {
   background-color: rgba(238, 240, 243, 1);
   overflow: auto;
 }
 .footer ul {
-  border-top: 1px solid black;
+  border-top: 2px solid gray;
   padding: 1em;
   margin-bottom: 1em;
   text-align: center;
 }
 .footer li {
   font-size: .75em;
-  padding: .5em 0;
+  padding: .5em 0 0 0;
   margin: 0 .5em 0 0;
   display: inline-block;
 }
@@ -144,4 +137,19 @@ table {
 }
 .footer li:last-child:after {
   content: none;
+}
+.search {
+  padding-bottom: 2em;
+  text-align: center;
+}
+.search p {
+  color: gray;
+  display: inline-block;
+}
+.search form {
+  padding: .5em;
+  display: inline;
+}
+.search input {
+  padding: .25em 0 0 0;
 }
