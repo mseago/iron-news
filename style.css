@@ -101,15 +101,20 @@ table {
 }
 .page-content li {
   margin: .25em 0;
+	color: gray;
 }
-.page-content ol li span {
+.page-content span {
   color: gray;
   font-size: .85em;
 }
 .page-content p {
+	margin-top: .25em;
   font-size: .75em;
   font-weight: 100;
   color: gray;
+}
+.headline {
+	color: #000;
 }
 .more-content p {
   font-size: 1em;
